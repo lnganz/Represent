@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <!--<ImageView-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:id="@+id/repImage"-->
+        <!--android:src="@drawable/mark" />-->
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Mark DeSaulnier (D)"
+        android:id="@+id/cardRepName"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_corner"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:textSize="16dp"
+        android:textIsSelectable="false" />
+</RelativeLayout>
